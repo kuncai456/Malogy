@@ -1,0 +1,65 @@
+########################  现货API路径  ########################
+# 现货信息
+symbol:
+  add: None
+  auth: false
+  method: get
+  request: rest
+  path: /api/v2/spot/public/symbols
+# 现货最新成交价
+ticker:
+  add: None
+  auth: false
+  method: get
+  request: rest
+  path: /api/v2/spot/market/tickers
+place:
+  add: None
+  auth: true
+  method: post
+  request: rest
+  path: /api/v2/spot/trade/place-order
+
+Wsticker:
+  add: None
+  auth: false
+  request: ws
+  channel: ticker
+
+
+---
+########################  合约API路径  ########################
+#  合约最新成交价
+ticker:
+  add: None
+  auth: false
+  method: get
+  request: rest
+  path: /api/v2/mix/market/ticker
+# 合约信息
+symbol:
+  add: None
+  auth: false
+  method: get
+  request: rest
+  path: /api/v2/mix/market/contracts
+
+Wsticker:
+  add: None
+  auth: false
+  request: ws
+  channel: ticker
+
+
+
+---
+########################  各环境域名  ########################
+dev:
+  ws: wss://upex-nio-openapi.test7.tools
+  rest: http://upex-nio-openapi.test7.tools
+test:
+  ws: wss://upex-nio-openapi.test7.tools
+  rest: http://upex-nio-openapi.test7.tools
+pre:
+  ws: wss://upex-nio-openapi.test7.tools
+  rest: http://upex-nio-openapi.test7.tools

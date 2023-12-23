@@ -1,0 +1,32 @@
+#####################  dev各种验签、秘钥数据  #####################
+10001:
+  apikey: XXXXXXXXX
+  keySecret: XXXXXXXXX
+  password: XXXXX
+
+10001T:
+  password: XXXXXXXXX
+  username: XXXXXXXXX
+
+
+
+---
+#####################  test各种验签、秘钥数据  #####################
+10001:
+  apikey: XXXXXXXXX
+  keySecret: XXXXXXXXX
+
+10001T:
+  password: XXXXXXXXX
+  username: XXXXXXXXX
+
+---
+#####################  prod各种验签、秘钥数据  #####################
+10001:
+  apikey: XXXXXXXXX
+  keySecret: XXXXXXXXX
+
+10001T:
+  password: XXXXXXXXX
+  username: XXXXXXXXX
+

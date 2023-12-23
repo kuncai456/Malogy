@@ -1,0 +1,40 @@
+########################  现货报文模板  ########################
+ticker: {
+        "symbol": symbol
+}
+symbol: {
+        "symbol": symbol
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+########################  合约报文模板  ########################
+ticker: {
+        "symbol": symbol,
+         "productType": COIN-FUTURES
+}
+symbol: {
+        "symbol": symbol,
+         "productType": USDT-FUTURES
+}
+
+
+
+
+
+
