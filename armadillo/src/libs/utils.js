@@ -6,7 +6,7 @@ let util = {
 // 主站环境列表
 util.primEnvList = [
     {name: "dev", url: 'http://www.baidu.com'},
-    {name: "test", url: 'http://www.sohu.com'},
+    {name: "test", url: 'http://test.abcdefg123.info'},
     {name: "pre", url: 'http://www.google.com'},
     {name: "prod", url: 'http://www.music.com'},
 ]
